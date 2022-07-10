@@ -1,0 +1,66 @@
+:root{
+  --bg-color-light: #ff2d70;
+  --shadow-dark-color: #d3dae7;
+  --main-bg-color: #ecf0f3;
+  --text: #555;
+  --bg-color-main: #090685;
+  --account-p-font: 0.4em;
+  --font: Lapidary333 BT;
+  --white: #fff;
+
+  --btn-bg: #0a07bb; 
+
+}
+
+.Account{
+  width: 100%;
+  height: 100%;
+  padding: 5rem 0;
+}
+
+.form-container{
+  width: 400px;
+  margin: 6% auto;
+  max-width: 100%;
+  border-radius: 10px;
+  background: var(--white);
+  font-size: var(--account-p-font);
+}
+
+.login-form h5, .signup-form h5, .indicatorBtn{
+  font-family: var(--font);
+  cursor: pointer;
+}
+
+
+.login-form, .signup-form{
+  width: 100%;
+}
+
+
+.form-container .form-control{
+  width: 100%;
+  background: transparent;
+  border: none;
+}
+
+.form-container .btn{
+  border-radius: 0;
+  font-style: italic;
+  background: var(--btn-bg);
+  transition: 0.3s;
+  letter-spacing: 2px;
+}
+
+.form-container .btn:active{
+  letter-spacing: 3px;
+  border: 1px solid #e0e0e0;
+}
+
+
+
+/* VERIFICATION STYLING  */
+/* .verification table th{
+  text-align: center;
+  padding: 1em 0!important;
+} */

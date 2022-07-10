@@ -1,0 +1,33 @@
+:root{
+    --btn-hover-bg: #2f2cec; 
+    --btn-bg: #090685; 
+}
+
+
+body{
+    font-family: 'Roboto';
+}
+
+body p{
+    font-size: 1em!important;
+}
+
+.btn, Button{
+    border: 0;
+    width: 100%;
+    font-weight: 500;
+    border-radius: 2px;
+    color: var(--white);
+    letter-spacing: 2px;
+    background: var(--btn-hover-bg);
+    text-transform: capitalize;
+}
+
+Button{
+    font-size: 0.5em;
+}
+
+Button:hover{
+    color: var(--white);
+    background: var(--btn-hover-bg);
+}

@@ -1,0 +1,107 @@
+:root{
+    --white: #fff;
+    --color: #030e12;
+    
+    --shadow-dark-color: #d3dae7;
+    --red: #ff0000;
+    --btn-bg: #0a07bb; 
+    --btn-hover-bg: #090685; 
+}
+
+body{
+    font-size: 2em;
+}
+
+
+/* NavBar styling  */
+header{
+    width: 100%;
+    z-index: 999;
+    position: fixed;
+}
+
+.logo a{
+    text-decoration: none;
+    text-decoration: none!important;
+}
+
+.Menu .logo h1{
+    font-size: 0.7em;
+    letter-spacing: 2px;
+}
+
+/* .Menu .logo h1::first-letter{ */
+h1::first-letter{
+    color: var(--red);
+    font-size: 1.8em;
+ }
+
+.Menu .navlink{
+    transition: 0.5s;
+    font-size: 0.4em;
+    position: relative;
+    text-decoration: none;
+}
+
+/* LOGIN BTN STYLING  */
+.Menu  nav .login{
+    color: var(--white)!important;
+    background: var(--btn-bg);
+}
+
+.Menu  nav .login:hover{
+    color: var(--white)!important;
+}
+
+.Menu .navlink{
+    transition: 0.3s;
+    color: var(--color)!important;
+}
+
+.Menu .navlink:hover{
+    letter-spacing: 2px;
+    color: var(--btn-hover-bg)!important;
+}
+
+.menu-icon{
+    display: none;
+}
+
+
+
+
+/* NAVBAR MEDIA QUERY  */
+@media(max-width: 1206px) {
+    .menu-icon{
+        display: block;
+    }
+
+    .nav{
+        right: 0%;
+        top: 100%;
+        width: 70vw;
+        transition: 0.5s;
+        position: absolute;
+        background: var(--white);
+        border-top: 0!important;
+        border: 1px solid #999;
+        flex-direction: column!important;
+        align-items: flex-start!important;
+    }
+
+    nav.hide{
+        right: -100%;
+    }
+    
+    .Menu .navlink{
+        font-size: 0.7em;
+        margin: 0.6em 0!important;
+        width: 100%;
+    }
+
+    .Menu .navlink:hover{
+        background: #333;
+        color: var(--white)!important;
+    }
+
+}

@@ -1,0 +1,31 @@
+:root{
+    --text-color: #888;
+    --rgb: rgba(0, 0, 0, .1);
+    --receipt-header-font: 0.8em;
+    --receipt-th-font: 0.4em;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.Receipt .receipt-header {
+   background: var(--rgb);
+}
+
+.Receipt .receipt-header .receipt-title{
+    color: var(--text-color);
+   font-size: var(--receipt-header-font);
+}
+
+.receipt-details p{
+    font-size: var(--receipt-th-font)!important;
+}
+
+.Receipt .receipt-details table{
+    width: 100%;
+}
+
+.Receipt .receipt-details table tr{
+    font-size: var(--receipt-th-font);
+}

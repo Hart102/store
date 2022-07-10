@@ -1,0 +1,20 @@
+:root{
+    --search-font: 0.4em;
+}
+
+.search .container input{
+    background: transparent;
+    border-radius: 50px;
+    font-size: var(--search-font);
+}
+
+.categories p{
+    font-size: 0.4em!important;
+}
+
+
+@media(max-width: 1002px){
+    .search .container input{
+        width: 80%;
+    }
+}

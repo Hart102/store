@@ -1,0 +1,11 @@
+:root{
+    --title-p-font: 0.4em;
+}
+
+.title{
+    font-size: var(--title-p-font);
+}
+
+.title p:nth-child(1){
+    text-transform: capitalize;
+}
